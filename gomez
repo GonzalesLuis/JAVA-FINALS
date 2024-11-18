@@ -15,6 +15,7 @@ class Product {
     public void updateStock(int stock) {
         this.stock = stock;
     }
+//Helo
     
     public void displayProduct() {
         System.out.println("ID: " + productID + " | Name: " + name + " | Price: $" + price + " | Stock: " + stock);
